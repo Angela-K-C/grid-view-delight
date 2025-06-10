@@ -1,0 +1,95 @@
+
+import type { ImpactToken } from '@/types/impactToken';
+
+export const mockImpactTokens: ImpactToken[] = [
+  {
+    id: 'IT001',
+    title: 'Ocean Cleanup Initiative',
+    creator: 'EcoArtist',
+    price: 2.5,
+    currency: 'ETH',
+    image: '/placeholder.svg',
+    category: 'art',
+    status: 'available',
+    likes: 234,
+    description: 'Digital art supporting ocean cleanup efforts',
+    impactScore: 95,
+    createdAt: '2024-01-15',
+    tags: ['environment', 'ocean', 'cleanup']
+  },
+  {
+    id: 'IT002',
+    title: 'Solar Power Dreams',
+    creator: 'GreenCreator',
+    price: 1.8,
+    currency: 'ETH',
+    image: '/placeholder.svg',
+    category: 'photography',
+    status: 'available',
+    likes: 156,
+    description: 'Photography collection promoting renewable energy',
+    impactScore: 88,
+    createdAt: '2024-01-20',
+    tags: ['renewable', 'solar', 'energy']
+  },
+  {
+    id: 'IT003',
+    title: 'Forest Conservation',
+    creator: 'NatureGuard',
+    price: 3.2,
+    currency: 'ETH',
+    image: '/placeholder.svg',
+    category: 'collectible',
+    status: 'auction',
+    likes: 412,
+    description: 'Limited edition collectible for forest conservation',
+    impactScore: 92,
+    createdAt: '2024-01-10',
+    tags: ['forest', 'conservation', 'trees']
+  },
+  {
+    id: 'IT004',
+    title: 'Clean Water Access',
+    creator: 'WaterForAll',
+    price: 0.9,
+    currency: 'ETH',
+    image: '/placeholder.svg',
+    category: 'utility',
+    status: 'available',
+    likes: 89,
+    description: 'Utility token providing clean water access',
+    impactScore: 98,
+    createdAt: '2024-01-25',
+    tags: ['water', 'health', 'access']
+  },
+  {
+    id: 'IT005',
+    title: 'Wildlife Protection',
+    creator: 'WildlifeSaver',
+    price: 4.1,
+    currency: 'ETH',
+    image: '/placeholder.svg',
+    category: 'art',
+    status: 'sold',
+    likes: 567,
+    description: 'Art collection supporting wildlife protection',
+    impactScore: 94,
+    createdAt: '2024-01-05',
+    tags: ['wildlife', 'protection', 'animals']
+  },
+  {
+    id: 'IT006',
+    title: 'Education for All',
+    creator: 'EduBuilder',
+    price: 1.5,
+    currency: 'ETH',
+    image: '/placeholder.svg',
+    category: 'music',
+    status: 'available',
+    likes: 203,
+    description: 'Music NFT supporting global education initiatives',
+    impactScore: 87,
+    createdAt: '2024-01-30',
+    tags: ['education', 'learning', 'global']
+  }
+];
